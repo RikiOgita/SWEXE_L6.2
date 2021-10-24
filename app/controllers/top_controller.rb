@@ -1,5 +1,5 @@
 class TopController < ApplicationController
     def main
-        render 'main'
+        redirect_to products_path
     end
 end
